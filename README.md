@@ -1,6 +1,6 @@
 # SCAUNet
 
-This is the official code for "SCAUNet: Step-Size Consistent ADMM Unfolding Network for Low-Light Image Enhancement."}
+This is the official code for "SCAUNet: Step-Size Consistent ADMM Unfolding Network for Low-Light Image Enhancement."
 
 ## Abstract
 
