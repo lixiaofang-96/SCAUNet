@@ -65,7 +65,7 @@ The pretrained weights will be released later.
 conda activate SCAUNet
 
 # LOL-v1
-python3 Enhancement/test_ADMMNet.py --opt Options/LOL_v1.yml --weights 权重路径 --dataset ADMMNet_LOL_v1
+python3 Enhancement/test_ADMMNet.py --opt Options/LOL_v1.yml --weights 权重路径 --dataset ADMMNet_LOL_v1 --GT_mean
 
 # LOL-v2-real
 python3 Enhancement/test_ADMMNet.py --opt Options/LOL_v2_real.yml --weights 权重路径 --dataset ADMMNet_LOL_v2_real
