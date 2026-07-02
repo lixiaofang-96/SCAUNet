@@ -680,7 +680,7 @@ class ADMMNet_Single_Stage(nn.Module):
         else:
             luminance = torch.mean(Ol, dim=1, keepdim=True)
 
-        # luminance, _ = torch.max(Ol, dim=1, keepdim=True)
+        luminance, _ = torch.max(Ol, dim=1, keepdim=True)
 
         # 为了更平滑、更像 illumination，可做一次局部平滑
         luminance = F.avg_pool2d(luminance, kernel_size=5, stride=1, padding=2)
